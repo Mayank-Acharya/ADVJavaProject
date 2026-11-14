@@ -1,0 +1,36 @@
+# Compiled class files & build artifacts
+target/
+*.class
+*.war
+*.ear
+*.jar
+src/main/webapp/WEB-INF/classes/
+src/main/webapp/WEB-INF/lib/
+sources.txt
+
+# Database files (H2 / local runtime DBs)
+smart_ats_h2_db*
+*.mv.db
+*.trace.db
+*.lock.db
+
+# User uploaded files
+uploads/
+src/main/webapp/uploads/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+logs/
+*.log

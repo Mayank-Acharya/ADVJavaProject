@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy>
+    <role id="web_developer" name="Web Developer">
+        <skills>
+            <skill name="Java" weight="10">
+                <synonym>Core Java</synonym>
+                <synonym>J2SE</synonym>
+                <synonym>JDK</synonym>
+            </skill>
+            <skill name="JSP" weight="8">
+                <synonym>JavaServer Pages</synonym>
+                <synonym>JSTL</synonym>
+            </skill>
+            <skill name="Servlet" weight="8">
+                <synonym>Java Servlet</synonym>
+                <synonym>Jakarta Servlet</synonym>
+            </skill>
+            <skill name="JDBC" weight="8">
+                <synonym>Java Database Connectivity</synonym>
+                <synonym>SQL Driver</synonym>
+            </skill>
+            <skill name="SQL" weight="7">
+                <synonym>MySQL</synonym>
+                <synonym>PostgreSQL</synonym>
+                <synonym>RDBMS</synonym>
+            </skill>
+            <skill name="HTML" weight="5">
+                <synonym>HTML5</synonym>
+            </skill>
+            <skill name="CSS" weight="5">
+                <synonym>CSS3</synonym>
+                <synonym>Bootstrap</synonym>
+                <synonym>Tailwind</synonym>
+            </skill>
+            <skill name="JavaScript" weight="7">
+                <synonym>JS</synonym>
+                <synonym>ES6</synonym>
+            </skill>
+            <skill name="XML" weight="6">
+                <synonym>DOM Parser</synonym>
+                <synonym>SAX</synonym>
+            </skill>
+            <skill name="Tomcat" weight="5">
+                <synonym>Apache Tomcat</synonym>
+                <synonym>Servlet Container</synonym>
+            </skill>
+        </skills>
+    </role>
+
+    <role id="app_developer" name="App Developer">
+        <skills>
+            <skill name="Android" weight="10">
+                <synonym>Android SDK</synonym>
+                <synonym>Android Studio</synonym>
+            </skill>
+            <skill name="Kotlin" weight="9"/>
+            <skill name="Java" weight="8"/>
+            <skill name="Flutter" weight="8">
+                <synonym>Dart</synonym>
+            </skill>
+            <skill name="React Native" weight="8"/>
+            <skill name="REST API" weight="7">
+                <synonym>Retrofit</synonym>
+                <synonym>Volley</synonym>
+                <synonym>JSON</synonym>
+            </skill>
+            <skill name="SQLite" weight="7">
+                <synonym>Room Database</synonym>
+            </skill>
+            <skill name="Firebase" weight="6"/>
+            <skill name="XML" weight="5">
+                <synonym>Layout XML</synonym>
+            </skill>
+        </skills>
+    </role>
+
+    <role id="video_editor" name="Video Editor">
+        <skills>
+            <skill name="Premiere Pro" weight="10">
+                <synonym>Adobe Premiere</synonym>
+            </skill>
+            <skill name="After Effects" weight="9">
+                <synonym>Adobe After Effects</synonym>
+                <synonym>Motion Graphics</synonym>
+            </skill>
+            <skill name="DaVinci Resolve" weight="9">
+                <synonym>DaVinci</synonym>
+            </skill>
+            <skill name="Final Cut Pro" weight="8">
+                <synonym>FCPX</synonym>
+            </skill>
+            <skill name="Color Grading" weight="7">
+                <synonym>Color Correction</synonym>
+                <synonym>LUTs</synonym>
+            </skill>
+            <skill name="Audio Sync" weight="6">
+                <synonym>Sound Design</synonym>
+                <synonym>Audition</synonym>
+            </skill>
+            <skill name="Keyframes" weight="5">
+                <synonym>Masking</synonym>
+                <synonym>Compositing</synonym>
+            </skill>
+        </skills>
+    </role>
+
+    <role id="game_developer" name="Game Developer">
+        <skills>
+            <skill name="Unity" weight="10">
+                <synonym>Unity3D</synonym>
+                <synonym>Unity Engine</synonym>
+            </skill>
+            <skill name="Unreal Engine" weight="10">
+                <synonym>UE5</synonym>
+                <synonym>UE4</synonym>
+            </skill>
+            <skill name="C#" weight="9"/>
+            <skill name="C++" weight="9"/>
+            <skill name="Blender" weight="7">
+                <synonym>3D Modeling</synonym>
+            </skill>
+            <skill name="Physics Engine" weight="7">
+                <synonym>Rigidbodies</synonym>
+                <synonym>Colliders</synonym>
+            </skill>
+            <skill name="Shaders" weight="6">
+                <synonym>HLSL</synonym>
+                <synonym>GLSL</synonym>
+            </skill>
+            <skill name="Animation" weight="6">
+                <synonym>Rigging</synonym>
+            </skill>
+        </skills>
+    </role>
+
+    <role id="data_scientist" name="Data Scientist">
+        <skills>
+            <skill name="Python" weight="10"/>
+            <skill name="Machine Learning" weight="9">
+                <synonym>ML</synonym>
+                <synonym>Scikit-Learn</synonym>
+            </skill>
+            <skill name="Deep Learning" weight="8">
+                <synonym>TensorFlow</synonym>
+                <synonym>PyTorch</synonym>
+            </skill>
+            <skill name="Pandas" weight="8"/>
+            <skill name="NumPy" weight="7"/>
+            <skill name="SQL" weight="7"/>
+            <skill name="Data Visualization" weight="6">
+                <synonym>Matplotlib</synonym>
+                <synonym>Seaborn</synonym>
+            </skill>
+        </skills>
+    </role>
+</taxonomy>
